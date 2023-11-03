@@ -1,0 +1,60 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ad9292;
+    color: #6f3939;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ddbdbd;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f0f0f0;
+}
+
+.about,
+.services,
+.contact {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+.service-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
